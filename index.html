@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jour 2: page de chargement</title>
+    <script type="text/javascript">
+        function RedirectionJavascript() {
+            document.location.href = "accueil.html";
+        }
+    </script>
+</head>
+
+<body style="background:rgb(0, 0, 0); color:aliceblue" onLoad="setTimeout('RedirectionJavascript()', 5000)">
+    <div class="loader"></div>
+    <div class="patientez">Patientez svp...</div>
+</body>
+
+</html>
